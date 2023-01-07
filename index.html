@@ -4,82 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Developer_Sr_Durjoy</title>
 </head>
 <body>
-    <header class="header_section">
-        <h1>Developer_Sr_Durjoy</h1>
-      <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Skill</a></li>
-            <li><a href="#">My Services</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
-      </nav>
+<!--------Header Section-------->
+    <header class="header-section">
+        <div class="header-items">
+            <div class="logo">
+                <h1>Developer<br>Sr_Durjoy</h1>
+            </div>
+            <div class="menu-section">
+                <nav class="menu">
+                    <ul class="menu-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">My Skill</a></li>
+                        <li><a href="#">My Services</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
     </header>
     <main>
-        <section class="introduction-section">
-            <div class="intro-text">
-                <h1>Hi!</h1>
-                <h2>I'm Saidur Rahman Durjoy</h2>
-                <p>Working as a freelancer at Upwork,Fiver and a local company(Power of Engineering)as a developer</p>
+<!---------Banner Section-->
+        <section class="banner-section">
+            <div class="introduction-section">
+                <div class="intro-text">
+                    <h1>Hi!</h1>
+                    <h2>I'm Saidur Rahman Durjoy</h2>
+                    <p>Working as a freelancer at Upwork,Fiver<br> and a local company(Power of Engineering)as a <strong>Developer</strong></p>
+                </div>
+                <div class="intro-image">
+                    <img src="images/my-image.png" alt="my-image">
+                </div>
             </div>
-            <div class="intro-image">
-                <img src="myimage.png" alt="my-image">
-            </div>
+
         </section>
+<!--------Educational Qualification  Section-->
         <section class="my-education">
+            <h1 class="section-heading">My Educational Qualification</h1>
+           <div class="educational-platforms">
             <div>
-                <h1>My Educational Qualifications</h1>
+                <h2>Academic Educational Qualifications</h2>
+                <p><strong>M.A<sub>English Literature</sub></strong></p>
+                
+                <p><strong>B.A<sub>English Literature</sub></strong></p>
+                   <p><sup>Institute</sup>University Of Dhaka</p>
+                <p><strong>LL.B<sub>Honour's</sub></strong></p>
+                <p><sup>Institute</sup>Bangladesh Open University</p>
             </div>
+            <div>
+                <h2>Computer Skills</h2>
+                <p><strong>Web Design<sub>W3 School</sub></strong></p>
+                <p><strong>Web Development Basic<sub>W3 School</sub></strong></p>
+                   <p><strong>Graphics Design<sub>Creative It Institute</sub></strong></p>
+                <p><strong>WordPress<sub>Sorobindhu</sub></strong></p>
+                <p><strong>computer Basic<sub>From Google</sub></strong></p>
+            </div>
+           </div>
            
         </section>
+ <!------Job Experience  Section-->
         <section class="my-job-experience">
-               <h1>My Job Experiences</h1>
+               <h1 class="section-heading">My Job Experiences</h1>
+               <div class="experiences">
+                  <div>
+                    <h2>Local Companies</h2>
+                     <ol>
+                        <li>B+ Sharee<sub>Graphics Design</sub></li>
+                        <li>Power Of Engineering<sub>Web Designer@Developer</sub></li>
+                     </ol>
+                  </div>
+                  <div>
+                    <h2>Online Marketplace</h2>
+                    <ol>
+                        <li>Fiverr@Upwork<sub>Web design@Development</sub></li>
+                        <li>Graphics River@Freelancer.com<sub>Graphics Design</sub></li>
+                     </ol>
+                  </div>
+               </div>
         </section>
+ <!-----Previous Made Portfolios-->       
         <section class="my-portfolio">
+            <h1 class="section-heading">My Previous Projects</h1>
             <div class="projects-description">
-                <h1>My Previous Projects</h1>
+                
             </div>
         </section>
-        <section class="my-hobbies">
-            <div class="bobbies-item">
-                <h1>My Hobbies</h1>
-            </div>
-        </section>
+  <!-----My Destination Section-->
         <section class="my-destination">
+            <h1 class="section-heading">My Destination</h1>
             <div>
-                <h1>My Destination</h1>
+                
             </div>
         </section>
+ <!-------My Hobbies Section-->
+        <section class="my-hobbies">
+            <h1 class="section-heading">My Hobbies</h1>
+            <div class="bobbies-item">
+                
+            </div>
+        </section>
+<!------Contact me Section--------->
         <section class="contact-me">
-            <form>
+            <h1 class="section-heading">Get-In-Touch</h1>
+            <form class="contact-form-info">
                 <div class="contact-info">
-                    <h1>Connect with me</h1>
+                    <h2>Connect with me</h2>
                     <p class="contact-description">Please,You can send your valuable information if need any help from me.<span>Feel free to connect with me. I'm very simple person</span></p>
-                    <h2 class="social-login">You can connect with me by using <strong>Social platform</strong></h2>
+                    <h3 class="social-login">You can connect with me<br> by using <strong>Social platform</strong></h3>
                 </div>
                 <div class="contact-form">
-                    <h1>Please, fillup this form and let me think about your information</h1>
-                    <h2>I will connect with you very soon Inshallah.</h2>
+                    <h1>Please, fillup this form<br> and let me think about your information.</h1>
+                    <h3>I will connect with you very soon Inshallah.</h3>
                     <label for="fullName" name="fullName">
-                        <input type="text" id="fullName" placeholder="Your Name">
+                        <input type="text" class="input-items" id="fullName" placeholder="Your Name">
                     </label><br>
                     <label for="email" name="email">
-                        <input type="email" name="email" placeholder="Your Email">
+                        <input type="email" name="email" class="input-items" placeholder="Your Email">
                     </label><br>
-                    <textarea class="your-message" cols="20" rows="20" placeholder="Write your message here">
+                    <textarea class="your-message" cols="50" rows="20" placeholder="Write your message here">
                         
                     </textarea><br>
-                    <input type="submit" value="Send">
+                    <input type="submit" class="btn-primary" value="Send">
                 </div>
             </form>
         </section>
     </main>
+<!----footer Section------------------------------>
     <footer>
-        <P>Copy&copy;right by Developer_Sr Durjoy-2023<sub>January</sub></P>
+        <div class="footer-info">
+            <P>&copy;right by Developer_Sr Durjoy-2023<sub>January</sub></P>
+        </div>
+        
     </footer>
 </body>
 </html>
