@@ -107,6 +107,11 @@ nav ul li a:hover{
     margin: 0% auto;
 }
 /*-----Job Experiences Section-------*/
+.my-job-experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid black ;
+}
 .experiences{
     display: flex;
     justify-content: space-between;
@@ -114,6 +119,11 @@ nav ul li a:hover{
     width: 1180px;
 }
 /*---My Service Section---*/
+.my-services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid black;
+}
 .service-items{
     display: flex;
     justify-content: space-between;
@@ -128,7 +138,13 @@ nav ul li a:hover{
 }
 /*---My Destination Section----*/
 .my-destination{
-    background-image: url("");
+    background-image: url("images/motivational.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.positive-think{
+    color: white;
 }
 .destination{
     text-align: center;
