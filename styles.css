@@ -92,6 +92,18 @@ nav ul li a:hover{
     padding-top:30px;
     padding-bottom: 30px;
 }
+.education-info{
+    color: green;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    box-sizing:border-box;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 30px;
+}
 .section-heading{
     text-align: center;
     color: green;
@@ -117,6 +129,18 @@ nav ul li a:hover{
     justify-content: space-between;
     margin: 0 auto;
     width: 1180px;
+}
+.experience-info{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 50px;
+    box-sizing:border-box;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 30px;
+}
+.experience-info h2{
+    color: green;
 }
 /*---My Service Section---*/
 .my-services{
